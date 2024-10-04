@@ -1,0 +1,85 @@
+{
+    "project_info": {
+      "project_number": "38815881531",
+      "firebase_url": "https://recharge-uno.firebaseio.com",
+      "project_id": "recharge-uno",
+      "storage_bucket": "recharge-uno.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:38815881531:android:0920e3f1a977323cef3f1e",
+          "android_client_info": {
+            "package_name": "com.recharge.app.dev"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "38815881531-q3sim81c6gl592cpu71861bbh2nj4b20.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyAxgWyx4q6yLKvf9zmXDQC_2RqLhaRrYnY"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "38815881531-q3sim81c6gl592cpu71861bbh2nj4b20.apps.googleusercontent.com",
+                "client_type": 3
+              },
+              {
+                "client_id": "38815881531-coll6a7lec8o956jmcc5l33miiatdg7a.apps.googleusercontent.com",
+                "client_type": 2,
+                "ios_info": {
+                  "bundle_id": "com.recharge.app.prod",
+                  "app_store_id": "1547603137"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:38815881531:android:c4f0e9ef346e96b2ef3f1e",
+          "android_client_info": {
+            "package_name": "com.recharge.app.prod"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "38815881531-q3sim81c6gl592cpu71861bbh2nj4b20.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyAxgWyx4q6yLKvf9zmXDQC_2RqLhaRrYnY"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "38815881531-q3sim81c6gl592cpu71861bbh2nj4b20.apps.googleusercontent.com",
+                "client_type": 3
+              },
+              {
+                "client_id": "38815881531-coll6a7lec8o956jmcc5l33miiatdg7a.apps.googleusercontent.com",
+                "client_type": 2,
+                "ios_info": {
+                  "bundle_id": "com.recharge.app.prod",
+                  "app_store_id": "1547603137"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }

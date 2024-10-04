@@ -1,0 +1,10 @@
+{
+    "url": "https://mobile.slgnt.eu/mobilepush/api/",
+    "clientId": "43fef42a-8b2d-46ea-b505-5329b811840c",
+    "privateKey": "ZvTMP+r1Nb23ECAxToznLedDLu3ReDQJa6ZLuCy1T+Qs3hQoLlv4AwFZk7DkjX9f1LvumWdBcUd2fM5+/nEf8w==",
+    "fullyQualifiedNotificationActivityClassName": "com.selligent.MainActivity",
+    "notificationSmallIcon": "ic_notification",
+    "notificationLargeIcon": "ic_notification",
+    "inAppMessageRefreshType": 11,
+    "appGroupId": "group.com.recharge.app.dev"
+}

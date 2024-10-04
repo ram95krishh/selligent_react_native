@@ -1497,6 +1497,12 @@ PODS:
     - React-logger (= 0.75.4)
     - React-perflogger (= 0.75.4)
     - React-utils (= 0.75.4)
+  - RNSelligent (4.0.0):
+    - SelligentMobileSDK/Framework (= 3.8.5)
+  - RNSelligentMapper (4.0.0):
+    - React-Core
+    - RNSelligent
+  - SelligentMobileSDK/Framework (3.8.5)
   - SocketRocket (0.7.0)
   - Yoga (0.0.0)
 
@@ -1564,10 +1570,13 @@ DEPENDENCIES:
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCodegen (from `build/generated/ios`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - "RNSelligentMapper (from `../node_modules/@selligent-marketing-cloud/selligent-react-native`)"
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
   trunk:
+    - RNSelligent
+    - SelligentMobileSDK
     - SocketRocket
 
 EXTERNAL SOURCES:
@@ -1694,6 +1703,8 @@ EXTERNAL SOURCES:
     :path: build/generated/ios
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RNSelligentMapper:
+    :path: "../node_modules/@selligent-marketing-cloud/selligent-react-native"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -1759,6 +1770,9 @@ SPEC CHECKSUMS:
   React-utils: cbe8b8b3d7b2ac282e018e46f0e7b25cdc87c5a0
   ReactCodegen: 4bcb34e6b5ebf6eef5cee34f55aa39991ea1c1f1
   ReactCommon: 6a952e50c2a4b694731d7682aaa6c79bc156e4ad
+  RNSelligent: 5af3defbc491d01871dca8bb55b3d10ac4b99cb2
+  RNSelligentMapper: b8d83c5f11b31d8a5068c32a032fbf9446ec4f86
+  SelligentMobileSDK: b269a125669b6060dcf3bc9b92134209a56fcfab
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
   Yoga: 055f92ad73f8c8600a93f0e25ac0b2344c3b07e6
 

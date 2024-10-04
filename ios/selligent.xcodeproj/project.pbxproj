@@ -12,6 +12,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		4A02FDB52CB02CF00044BFCD /* selligent.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A02FDB42CB02CF00044BFCD /* selligent.json */; };
 		7699B88040F8A987B510C191 /* libPods-selligent-selligentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-selligent-selligentTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		D1ECF8108A929B48FCD68E47 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3B145864173BC72BB1B9D9B6 /* PrivacyInfo.xcprivacy */; };
@@ -39,8 +40,9 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = selligent/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = selligent/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-selligent-selligentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-selligent-selligentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B145864173BC72BB1B9D9B6 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = selligent/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3B145864173BC72BB1B9D9B6 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = selligent/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-selligent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-selligent.debug.xcconfig"; path = "Target Support Files/Pods-selligent/Pods-selligent.debug.xcconfig"; sourceTree = "<group>"; };
+		4A02FDB42CB02CF00044BFCD /* selligent.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = selligent.json; path = ../selligent.json; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-selligent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-selligent.release.xcconfig"; path = "Target Support Files/Pods-selligent/Pods-selligent.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-selligent-selligentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-selligent-selligentTests.debug.xcconfig"; path = "Target Support Files/Pods-selligent-selligentTests/Pods-selligent-selligentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-selligent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-selligent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +123,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				4A02FDB42CB02CF00044BFCD /* selligent.json */,
 				13B07FAE1A68108700A75B9A /* selligent */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* selligentTests */,
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				4A02FDB52CB02CF00044BFCD /* selligent.json in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				D1ECF8108A929B48FCD68E47 /* PrivacyInfo.xcprivacy in Resources */,
 			);
