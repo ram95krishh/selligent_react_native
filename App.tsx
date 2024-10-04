@@ -99,7 +99,7 @@ export const initializeDeviceId = () => {
       new Promise<never>((_resolve, reject) => {
         setTimeout(() => {
           reject(new Error('Selligent Device ID resolution timed out.'));
-        }, 65000);
+        }, 15000);
       }),
     ]),
   ]).catch((err:any) => {
